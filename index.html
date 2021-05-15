@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <!-- Linked Css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Light slider css -->
+    <link rel="stylesheet" href="./css/lightslider.css">
+    <!-- FontsAwsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- Light Slider js -->
+    <script src="./js/lightslider.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="social-call">
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="phone">
+                <span>Call +123456789</span>
+            </div>
+        </div>
+        <!-- menu-bar -->
+        <div class="navigation">
+            <!-- logo -->
+            <a href="#" class="logo">
+                <img src="./images/logo.png" alt="" srcset="">
+            </a>
+            <!-- menu logo -->
+            <div class="toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <!-- menu -->
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Men</a>
+                    <span class="sale-label">Sale</span></li>
+
+                <li><a href="#">Woman</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+            <div class="right-menu">
+
+
+
+
+
+
+                <!-- Search-Bar -->
+                <div class="search-box">
+                    <input type="text" placeholder="Search">
+                    <div class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <a href="#" class="user">
+                    <i class="far fa-user"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-shopping-cart">
+                    <!-- number of product in cart -->
+                    <span class="num-cart-product">0</span>
+                </i>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!-- login and sing up -->
+    <div class="form">
+        <!-- login -->
+        <div class="login-form">
+            <!-- cancel Btn -->
+            <a href="#" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <strong>Log In</strong>
+            <form action="">
+                <input type="email" placeholder="Exlample@gmail.com" name="email" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <!-- submit -->
+                <input type="submit" value="Log In">
+            </form>
+            <!-- forget pass and sign up btn -->
+            <div class="form-btns">
+                <a href="#" class="forget">Forget Your Password?</a>
+                <a href="#" class="sign-up-btn">Create Account</a>
+            </div>
+        </div>
+        <!-- login -->
+        <div class="sign-up-form">
+            <!-- cancel Btn -->
+            <a href="#" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <strong>Sign Up</strong>
+            <form action="">
+                <input type="
+                text" placeholder="Full Name" name="fullname" required>
+                <input type="email" placeholder="Example@gmail.com" name="email" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <!-- submit -->
+                <input type="submit" value="Sign Up">
+            </form>
+            <!-- forget pass and sign up btn -->
+            <div class="form-btns">
+                <a href="#" class="forget">Already Have Account?</a>
+
+            </div>
+        </div>
+    </div>
+    <!-- Slider -->
+    <ul id="adaptive" class="cs-hidden">
+        <!-- Box 1 -->
+        <li class="item-a">
+            <div class="full-slider-box f-slide-1">
+                <!-- slider container -->
+                <div class="slider-text-container">
+                    <div class="f-slider-text">
+                        <span>limited offer</span>
+                        <strong> 30% off<br> with <font>promo code</font></strong>
+                        <a href="#" class="f-slider-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <!-- Box 2 -->
+        <li class="item-a">
+            <div class="full-slider-box f-slide-2">
+                <!-- slider container -->
+                <div class="slider-text-container">
+                    <div class="f-slider-text">
+                        <span>limited offer</span>
+                        <strong>30% off<br> with <font>promo code</font></strong>
+                        <a href="#" class="f-slider-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <!-- Box 3 -->
+        <li class="item-a">
+            <div class="full-slider-box f-slide-3">
+                <!-- slider container -->
+                <div class="slider-text-container">
+                    <div class="f-slider-text">
+                        <span>limited offer</span>
+                        <strong>30% off<br> with <font>promo code</font></strong>
+                        <a href="#" class="f-slider-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+    </ul>
+    <!-- Feature Categories -->
+    <div class="feature-heading">
+        <h2>Feature Categories</h2>
+    </div>
+    <!-- List Of Shirts... -->
+    <div class="btn-container">
+        <button type="button" class="filter-btn" data-id="all">All</button>
+        <button type="button" class="filter-btn" data-id="Shirt">Shirt</button>
+        <button type="button" class="filter-btn" data-id="Shoes">Shoes</button>
+        <button type="button" class="filter-btn" data-id="Jacket">Jacket</button>
+        <button type="button" class="filter-btn" data-id="Trousers">Trousers</button>
+    </div>
+    <!-- New Arrival -->
+    <section class="new-arrival">
+        <!-- heading -->
+        <div class="arrival-heading">
+            <strong>Feature Items</strong>
+            <p>We Provide Your New Desing Fashion Clothes</p>
+        </div>
+        <!-- Product Container -->
+        <div class="product-container">
+
+            <!-- Comes From MAIN.JS -->
+
+        </div>
+    </section>
+    <!-- Sale -->
+    <section class="sale">
+        <!-- Sale box 1 -->
+        <div class="sale-box">
+            <img src="./images/sale-1.jpg" alt="">
+            <a href="#">
+                <div class="sale-text">
+                    <strong>Bag With Pattern</strong>
+                    <span>Sale Off 25%</span>
+                </div>
+            </a>
+        </div>
+        <!-- Sale box 2 -->
+        <div class="sale-box">
+            <img src="./images/sale-2.jpg" alt="">
+            <a href="#">
+                <div class="sale-text">
+                    <strong>Bag With Pattern</strong>
+                    <span>Sale Off 25%</span>
+                </div>
+            </a>
+        </div>
+        <!-- Sale box 3 -->
+        <div class="sale-box">
+            <img src="./images/sale_3.png" alt="">
+            <a href="#">
+                <div class="sale-text">
+                    <strong>Bag With Pattern</strong>
+                    <span>Sale Off 25%</span>
+                </div>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- New Arrival -->
+    <section class="new-arrival">
+        <!-- heading -->
+        <div class="arrival-heading">
+            <strong>New Arrival</strong>
+            <p>We Provide Your New Desing Fashion Clothes</p>
+        </div>
+        <!-- Product Container -->
+        <div class="product-container">
+            <!-- Product Box 1-->
+
+            <div class="product-box">
+
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./images/p-1.png" alt="">
+                </div>
+                <!-- Details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Drawstring T-shirt</a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>
+            <!-- Product Box 2-->
+
+            <div class="product-box">
+
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./images/p-2.png" alt="">
+                </div>
+                <!-- Details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Drawstring T-shirt</a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>
+            <!-- Product Box 3-->
+
+            <div class="product-box">
+
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./images/p-3.png" alt="">
+                </div>
+                <!-- Details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Drawstring T-shirt</a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>
+            <!-- Product Box 4-->
+
+            <div class="product-box">
+
+                <div class="product-img">
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./images/p-4.png" alt="">
+                </div>
+                <!-- Details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Drawstring T-shirt</a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sale Banner -->
+    <div class="banner-box f-slide-2">
+        <!-- slider container -->
+        <div class="banner-text-container">
+            <div class="banner-text">
+                <span>limited offer</span>
+                <strong>30% off<br> with <font>promo code</font></strong>
+                <a href="#" class="banner-btn">Shop Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div class="services">
+        <div class="services-box">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Free Shipping</span>
+            <p>Free Shipping For all US orders</p>
+        </div>
+        <div class="services-box">
+            <i class="fas fa-headphones-alt"></i>
+            <span>Support 24/7</span>
+            <p>We support 24h a day</p>
+        </div>
+        <div class="services-box">
+            <i class="fas fa-sync"></i>
+            <span>100% money back</span>
+            <p>You have 30 days to return</p>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <footer>
+        <!-- Copyright -->
+        <span class="copyright">
+            © Copyright 2021 - KereWeb
+         </span>
+        <!-- Sub -->
+        <div class="subscribe">
+            <form action="">
+                <input type="email" placeholder="Example@gmail.com">
+                <input type="submit" value="subscribe">
+            </form>
+        </div>
+        <!-- Move Top -->
+        <div class="move">
+            <span><i class="fas fa-arrow-circle-up fa-3x"></i></span>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- Js -->
+    <script src="./js/main.js "></script>
+</body>
+
+</html>
